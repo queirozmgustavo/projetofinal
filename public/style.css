@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+
+html, body {
+    width:100%;
+    background-image: url(./background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  h1 {
+      font-family: 'Rowdies', cursive;
+      display: block;
+      text-align: center;
+      background-color: rgb(30, 31, 78);
+      color: rgb(255, 255, 255);
+      padding: 10px;
+      opacity: 0.9;
+  }
+  
+  #chat {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.8;
+  }
+  
+  input {
+    width: 600px;
+    border: 1px solid #ddd;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 14px;
+  }
+  
+  button {
+    width: 600px;
+    height: 50px;
+    font-size: 14px;
+    background: #069;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    color: #FFF;
+    margin-top: 10px;
+  }
+  
+  .messages {
+    width: 600px;
+    height: 350px;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: white;
+  }
